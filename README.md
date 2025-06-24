@@ -101,3 +101,27 @@ Below is a use case diagram for the booking management system. The diagram ident
 - Receive Confirmation Email
 - Manage User Accounts (Administrator)
 - View All Bookings (Administrator)
+
+## Acceptance Criteria
+
+Acceptance Criteria are specific, measurable conditions that a software product must satisfy to be accepted by stakeholders. In requirement analysis, they play a crucial role by defining the boundaries of a feature, clarifying expectations, and providing a basis for testing and validation. Well-defined acceptance criteria help ensure that all parties have a shared understanding of what "done" means for each requirement, reducing ambiguity and minimizing the risk of rework.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarity:** They translate high-level requirements into concrete, testable statements, making it clear what is expected from a feature.
+- **Alignment:** Acceptance criteria ensure that stakeholders, developers, and testers are aligned on the definition of success for each requirement.
+- **Testability:** They provide a foundation for creating test cases, enabling objective verification that requirements have been met.
+- **Scope Control:** By specifying what is included (and excluded), acceptance criteria help prevent scope creep and manage stakeholder expectations.
+
+### Example: Acceptance Criteria for the Checkout Feature
+
+**Feature:** Checkout in the Booking Management System
+
+**Acceptance Criteria:**
+
+- The user can review their booking details before confirming the checkout.
+- The system displays the total cost, including any applicable taxes or fees.
+- The user must provide valid payment information to complete the checkout.
+- Upon successful payment, the system generates a booking confirmation and sends a confirmation email to the user within 1 minute.
+- If payment fails, the user receives an error message and can retry or cancel the checkout process.
+- The system prevents checkout if required booking details are missing or invalid.
