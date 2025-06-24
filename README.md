@@ -72,3 +72,32 @@ Non-functional requirements define the quality attributes, constraints, and stan
 - The application should be accessible on both desktop and mobile devices.
 - All user data must be encrypted in transit and at rest to ensure security.
 - The system should have 99.9% uptime, excluding scheduled maintenance.
+
+## Use Case Diagrams
+
+Use Case Diagrams are a type of Unified Modeling Language (UML) diagram that visually represent the interactions between users (actors) and a system. They help illustrate the functional requirements of a system by showing the various ways users interact with it. Use Case Diagrams are beneficial because they:
+
+- Provide a high-level overview of system functionality.
+- Clarify user roles and their interactions with the system.
+- Facilitate communication between stakeholders, developers, and designers.
+- Help identify and organize system requirements.
+
+### Use Case Diagram for the Booking Management System
+
+Below is a use case diagram for the booking management system. The diagram identifies the main actors and their interactions with the system:
+
+**Actors:**
+
+- User
+- Administrator
+
+**Use Cases:**
+
+- Create Booking
+- View Booking
+- Update Booking
+- Cancel Booking
+- Search Resources
+- Receive Confirmation Email
+- Manage User Accounts (Administrator)
+- View All Bookings (Administrator)
